@@ -1,2 +1,3 @@
 # NetLogger
  
+This is an Android Xposed module that hooks into various HTTP libraries used by apps to log network requests and responses. It includes hooks for the OkHttp3 library and allows for logging of the package name, request method, URL, headers, and response status code, headers, and body. The logged information is printed to the Xposed log and can be viewed using a logcat reader. The module is designed to aid in debugging and monitoring network activity within apps.
